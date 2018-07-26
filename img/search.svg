@@ -1,0 +1,28 @@
+<svg width="17" height="17" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title> search</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-13939 -11835)">
+<g id="icon / search">
+<g id="Vector 2">
+<use xlink:href="#path0_stroke" transform="translate(13950.5 11846.5)" fill="#222222"/>
+</g>
+<g id="Ellipse 2">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(13939 11835)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(13939 11835)" fill="#222222"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_stroke" transform="translate(13949 11845)" fill="#222222"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 5.20711 3.79289L 0.707107 -0.707107L -0.707107 0.707107L 3.79289 5.20711L 5.20711 3.79289Z"/>
+<path id="path1_fill" d="M 12 6C 12 9.31371 9.31371 12 6 12C 2.68629 12 0 9.31371 0 6C 0 2.68629 2.68629 0 6 0C 9.31371 0 12 2.68629 12 6Z"/>
+<path id="path2_stroke_2x" d="M 10 6C 10 8.20914 8.20914 10 6 10L 6 14C 10.4183 14 14 10.4183 14 6L 10 6ZM 6 10C 3.79086 10 2 8.20914 2 6L -2 6C -2 10.4183 1.58172 14 6 14L 6 10ZM 2 6C 2 3.79086 3.79086 2 6 2L 6 -2C 1.58172 -2 -2 1.58172 -2 6L 2 6ZM 6 2C 8.20914 2 10 3.79086 10 6L 14 6C 14 1.58172 10.4183 -2 6 -2L 6 2Z"/>
+<path id="path3_stroke" d="M -0.353553 0.353553L 5.64645 6.35355L 6.35355 5.64645L 0.353553 -0.353553L -0.353553 0.353553Z"/>
+</defs>
+</svg>

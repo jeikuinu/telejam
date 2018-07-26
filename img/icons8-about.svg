@@ -1,0 +1,42 @@
+<svg width="20" height="21" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icons8-&#208;&#190;-&#208;&#189;&#208;&#176;&#209;&#129;-100</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-20685 -12116)">
+<rect x="20685" y="12116" width="20" height="21" fill="#E5E5E5"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 20665 11804L 22105 11804L 22105 16241L 20665 16241L 20665 11804Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="&#208;&#161;atalog / serial" clip-path="url(#clip-0)">
+<path d="M 20665 11804L 22105 11804L 22105 16241L 20665 16241L 20665 11804Z" fill="#F2F0F1"/>
+<g id="Rectangle 2.2" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(20665 12106.6)" fill="#FFFFFF"/>
+<use xlink:href="#path0_fill" transform="translate(20665 12106.6)" fill="url(#paint1_linear)" fill-opacity="0.05"/>
+</g>
+<g id="icons8-&#208;&#190;-&#208;&#189;&#208;&#176;&#209;&#129;-100">
+<use xlink:href="#path1_fill" fill="url(#pattern0)" transform="translate(20685 12116.5)"/>
+<use xlink:href="#path1_fill" transform="translate(20685 12116.5)" fill="#FF6902" style="mix-blend-mode:lighten"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="20657" y="12100" width="66" height="57" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="2"/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<pattern id="pattern0" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="matrix(0.01 0 0 0.01 0 0)"/>
+</pattern>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(25 4.71879e-07 -5.92378e-07 31.1969 3.01411e-07 24.4016)">
+<stop offset="0"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<path id="path0_fill" d="M 0 1C 0 0.447716 0.447715 0 1 0L 49 0C 49.5523 0 50 0.447715 50 1L 50 39.0681C 50 39.6204 49.5523 40.0681 49 40.0681L 1 40.0681C 0.447715 40.0681 0 39.6204 0 39.0681L 0 1Z"/>
+<path id="path1_fill" d="M 0 0L 20 0L 20 20L 0 20L 0 0Z"/>
+<image id="image0" width="100" height="100" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAA5rAAAOawBkEgKSgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMTSURBVHic7d3LahNRHMfxr6ZVEYsUxFC8vEDBlSA+gFAvCy8ounTj3pWgIPgE7nwAdVEKducVNyK2ulHcuYxQEF0omIS21hoXky5EMudk5pzJ/2R+HxhczPHkNF9mJjcSEBERERERqda2gv9vGpgDjgGHgalgK0pbG/gMvAOeAz9i3+Au4A7QBXracrcOcBvYWeie9tAE3hr4Q1PbloD9Be7vXLuBDwb+uFS39/370KnhMwi4BVz2HCv/mwFWgdeugT4X9b3ACrCn5KLqrg0c6P870HaPiU6jGCFMAadcg3yCHC2/Fulz3pcTHpM0HftXgGWv5Yy/48DBnP0zrgl8gkw69i8DlzzmqYMF4GLO/h2uCXxOWVIhBTFGQYxREGMUxBgFMUZBjEk1yCzuV1hnR7a6ElINMrYUxBgFMUZBjFEQYxTEGAUxxuf9EItawAmPMclJNUgXeDnqRcSgU5YxCmJMqqesJnDdMeYu8LWCtQSVapB9wA3HmAckGESnLGMUxBgFMUZBjFEQYxTEGAUxRkGMURBjFMQYBTFGQYxREGMUxBgFMUZBjFEQYxTEGAUxJtX31Fvog3Km6INyUg0FMUZBjFEQYxTEGAUxJvbD3jnq9a3Xhxz7e64JYgVpAPeAa5HmT9U314AYQRpknzy/EmHu1H1yDQh9DVGMwXrAY9egkEfIJDAPnA845ziZx+P1tVBHSAO4j2IM8h246TMwRJAJ4CH6bvhBumRfo9sKNeEC+d9L9duxv87bR+DIMHd2iGuI7y8s1MEf4AvZL+wskl03NoeZoKr3QzaBq2SPwCRHFUE2yB4GP6rgtpIX+7UsxRhSzCNkg+yR12LE2xg7sYKsAxfweGYq/4pxylKMEkIfIetkz9afBJ63NkIeIWvAORSjlFBB1siOjKeB5qutEKesrSPjWYC5aq/sEaIYgZUJ8ovsSZ9iBFT0lLUKnAVeBFyLUCxIBzgDvAq8FmH4IB2ynw91/siuFDPMNaQNnEQxovI9QrZivIm4FsEvyE+yTyAuRV6LeJoe9QJERERERMr5C3kxlL+WRmDnAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

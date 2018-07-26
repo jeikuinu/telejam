@@ -1,0 +1,271 @@
+.article_wrapper .article_content, .article_wrapper .article_right_block .serial_direct_wrapper, .article_wrapper .article_right_block .topic_news, .article_wrapper .article_right_block .rating_best_serials, .article_footer_block_publications, .article_footer_block_publications .publications {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); }
+
+.subtitle_wrapper {
+  margin-bottom: 30px; }
+
+.article_wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex; }
+  .article_wrapper .article_content {
+    width: 860px;
+    margin-right: 20px; }
+    .article_wrapper .article_content .article_descripption_wrapper {
+      padding: 40px 40px 30px;
+      border-bottom: 0.5px solid rgba(34, 34, 34, 0.3); }
+      .article_wrapper .article_content .article_descripption_wrapper .article_descripption {
+        font-style: italic;
+        line-height: 21px;
+        font-size: 15px;
+        color: #262626; }
+    .article_wrapper .article_content .article_text_wrapper {
+      padding: 40px 40px 50px; }
+      .article_wrapper .article_content .article_text_wrapper a {
+        color: #262626; }
+      .article_wrapper .article_content .article_text_wrapper .article_big_image_wrapper {
+        margin-bottom: 30px; }
+        .article_wrapper .article_content .article_text_wrapper .article_big_image_wrapper .article_big_image {
+          max-width: 780px; }
+      .article_wrapper .article_content .article_text_wrapper .article_text_regular {
+        margin-bottom: 40px;
+        line-height: 21px;
+        font-size: 15px;
+        color: #262626; }
+      .article_wrapper .article_content .article_text_wrapper .article_video_integration {
+        max-width: 780px;
+        margin-bottom: 40px; }
+      .article_wrapper .article_content .article_text_wrapper .article_footer .article_author {
+        border-top: 0.5px solid rgba(34, 34, 34, 0.3);
+        margin-bottom: 7px;
+        display: flex;
+        align-items: center; }
+        .article_wrapper .article_content .article_text_wrapper .article_footer .article_author .article_author_title {
+          width: 144px;
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          line-height: 19px;
+          font-size: 13px;
+          color: #262626;
+          opacity: 0.7; }
+        .article_wrapper .article_content .article_text_wrapper .article_footer .article_author .article_author_list {
+          width: 100%;
+          background: #F2F0F1; }
+          .article_wrapper .article_content .article_text_wrapper .article_footer .article_author .article_author_list .author_list .author_item {
+            display: inline-block; }
+            .article_wrapper .article_content .article_text_wrapper .article_footer .article_author .article_author_list .author_list .author_item::after {
+              content: ','; }
+            .article_wrapper .article_content .article_text_wrapper .article_footer .article_author .article_author_list .author_list .author_item:nth-last-child(1)::after {
+              content: ''; }
+            .article_wrapper .article_content .article_text_wrapper .article_footer .article_author .article_author_list .author_list .author_item a {
+              line-height: 21px;
+              font-size: 15px;
+              text-decoration: underline;
+              color: #262626; }
+      .article_wrapper .article_content .article_text_wrapper .article_footer .article_tags {
+        border-top: 0.5px solid rgba(34, 34, 34, 0.3);
+        display: flex;
+        align-items: center; }
+        .article_wrapper .article_content .article_text_wrapper .article_footer .article_tags .article_tags_title {
+          width: 144px;
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          line-height: 19px;
+          font-size: 13px;
+          color: #262626;
+          opacity: 0.7; }
+        .article_wrapper .article_content .article_text_wrapper .article_footer .article_tags .article_tags_list {
+          width: 100%;
+          background: #F2F0F1; }
+          .article_wrapper .article_content .article_text_wrapper .article_footer .article_tags .article_tags_list .tags_list .tags_item {
+            display: inline-block; }
+            .article_wrapper .article_content .article_text_wrapper .article_footer .article_tags .article_tags_list .tags_list .tags_item::after {
+              content: ','; }
+            .article_wrapper .article_content .article_text_wrapper .article_footer .article_tags .article_tags_list .tags_list .tags_item:nth-last-child(1)::after {
+              content: ''; }
+            .article_wrapper .article_content .article_text_wrapper .article_footer .article_tags .article_tags_list .tags_list .tags_item a {
+              line-height: 21px;
+              font-size: 15px;
+              text-decoration: underline;
+              color: #262626; }
+  .article_wrapper .article_right_block {
+    width: 320px; }
+    .article_wrapper .article_right_block .serial_direct_wrapper {
+      padding: 20px 20px 30px 20px;
+      border-radius: 1px;
+      margin-bottom: 20px;
+      display: flex; }
+      .article_wrapper .article_right_block .serial_direct_wrapper .serial_direct_image_block {
+        max-width: 94px;
+        margin-right: 13px; }
+        .article_wrapper .article_right_block .serial_direct_wrapper .serial_direct_image_block img {
+          width: 94px; }
+      .article_wrapper .article_right_block .serial_direct_wrapper .serial_direct_rating_block {
+        width: 100%; }
+        .article_wrapper .article_right_block .serial_direct_wrapper .serial_direct_rating_block .serial_direct_rating_title a {
+          text-decoration: none;
+          font-weight: bold;
+          line-height: 18px;
+          font-size: 13px;
+          color: #262626; }
+        .article_wrapper .article_right_block .serial_direct_wrapper .serial_direct_rating_block .serial_direct_rating_subtitles {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 4px; }
+          .article_wrapper .article_right_block .serial_direct_wrapper .serial_direct_rating_block .serial_direct_rating_subtitles .serial_direct_rating_genre {
+            line-height: 15px;
+            font-size: 11px;
+            color: #262626;
+            opacity: 0.7; }
+          .article_wrapper .article_right_block .serial_direct_wrapper .serial_direct_rating_block .serial_direct_rating_subtitles .serial_direct_percent_number {
+            margin-left: 5px;
+            line-height: 15px;
+            font-size: 11px;
+            color: #262626; }
+        .article_wrapper .article_right_block .serial_direct_wrapper .serial_direct_rating_block .serial_direct_rating_chart {
+          margin-top: 14px; }
+    .article_wrapper .article_right_block .topic_news {
+      border-radius: 1px;
+      margin-bottom: 20px; }
+      .article_wrapper .article_right_block .topic_news .topic_news_title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        line-height: 20px;
+        font-size: 21px;
+        letter-spacing: -0.05em;
+        color: #000000;
+        padding-top: 20px;
+        padding-left: 20px; }
+      .article_wrapper .article_right_block .topic_news .topic_news_list_block {
+        padding-left: 20px; }
+        .article_wrapper .article_right_block .topic_news .topic_news_list_block .topic_news_list {
+          list-style: none;
+          padding: 0; }
+          .article_wrapper .article_right_block .topic_news .topic_news_list_block .topic_news_list .topic_news_item {
+            border-bottom: 0.5px solid rgba(34, 34, 34, 0.3);
+            padding-bottom: 16.5px;
+            margin-bottom: 17.5px; }
+            .article_wrapper .article_right_block .topic_news .topic_news_list_block .topic_news_list .topic_news_item:nth-last-child(1) {
+              border-bottom: none; }
+            .article_wrapper .article_right_block .topic_news .topic_news_list_block .topic_news_list .topic_news_item .topic_news_item_title a {
+              font-weight: bold;
+              line-height: 21px;
+              font-size: 15px;
+              color: #262626;
+              text-decoration: none; }
+            .article_wrapper .article_right_block .topic_news .topic_news_list_block .topic_news_list .topic_news_item .topic_news_footer {
+              display: flex;
+              margin-bottom: 5px; }
+              .article_wrapper .article_right_block .topic_news .topic_news_list_block .topic_news_list .topic_news_item .topic_news_footer .topic_news_date {
+                margin-right: 10px;
+                font-weight: bold;
+                line-height: 15px;
+                font-size: 11px;
+                color: #262626;
+                opacity: 0.7; }
+              .article_wrapper .article_right_block .topic_news .topic_news_list_block .topic_news_list .topic_news_item .topic_news_footer .topic_news_type {
+                font-weight: bold;
+                line-height: 15px;
+                font-size: 11px;
+                color: #262626;
+                opacity: 0.7; }
+      .article_wrapper .article_right_block .topic_news .watch_all_topic_news {
+        margin-left: 20px;
+        margin-bottom: 22px; }
+    .article_wrapper .article_right_block .rating_best_serials {
+      border-radius: 1px;
+      padding: 20px 20px 22px; }
+      .article_wrapper .article_right_block .rating_best_serials .rating_best_serials_header {
+        display: flex;
+        justify-content: space-between; }
+        .article_wrapper .article_right_block .rating_best_serials .rating_best_serials_header .rating_best_serials_header_title {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          line-height: 20px;
+          font-size: 21px;
+          letter-spacing: -0.05em;
+          color: #000000; }
+        .article_wrapper .article_right_block .rating_best_serials .rating_best_serials_header #previous_rating_best_serials, .article_wrapper .article_right_block .rating_best_serials .rating_best_serials_header #next_rating_best_serials {
+          width: 24px;
+          height: 24px; }
+      .article_wrapper .article_right_block .rating_best_serials .serials_rating_title {
+        margin-bottom: 5px; }
+      .article_wrapper .article_right_block .rating_best_serials .watch_all_best {
+        margin-top: 16px; }
+
+.article_footer_block_publications {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 60px; }
+  .article_footer_block_publications .publications {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 60px 0 30px 60px;
+    border-bottom: 0.5px solid rgba(34, 34, 34, 0.3); }
+    .article_footer_block_publications .publications .main_publication {
+      width: 580px; }
+      .article_footer_block_publications .publications .main_publication .main_publication_image {
+        max-width: 580px;
+        margin-bottom: 20px; }
+        .article_footer_block_publications .publications .main_publication .main_publication_image img {
+          width: 580px; }
+      .article_footer_block_publications .publications .main_publication .main_publication_info .main_publication_title {
+        margin-bottom: 14px; }
+        .article_footer_block_publications .publications .main_publication .main_publication_info .main_publication_title a {
+          font-weight: bold;
+          line-height: 34px;
+          font-size: 24px;
+          color: #262626;
+          text-decoration: none; }
+      .article_footer_block_publications .publications .main_publication .main_publication_info .main_publication_description {
+        line-height: 21px;
+        font-size: 15px;
+        color: #262626;
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 20px; }
+      .article_footer_block_publications .publications .main_publication .main_publication_info .main_publication_footer {
+        font-weight: bold;
+        line-height: 15px;
+        font-size: 11px;
+        color: #262626;
+        opacity: 0.7; }
+        .article_footer_block_publications .publications .main_publication .main_publication_info .main_publication_footer .main_publication_date {
+          margin-right: 10px; }
+    .article_footer_block_publications .publications .other_publications {
+      width: 540px; }
+      .article_footer_block_publications .publications .other_publications .publications_list {
+        padding: 0; }
+        .article_footer_block_publications .publications .other_publications .publications_list li {
+          list-style: none;
+          margin-bottom: 20px;
+          border-bottom: 0.5px solid rgba(34, 34, 34, 0.3); }
+          .article_footer_block_publications .publications .other_publications .publications_list li .publication_item_info {
+            padding-left: 20px; }
+            .article_footer_block_publications .publications .other_publications .publications_list li .publication_item_info .publication_item_header {
+              font-weight: bold;
+              line-height: 16px;
+              font-size: 11px;
+              color: #262626;
+              opacity: 0.7; }
+              .article_footer_block_publications .publications .other_publications .publications_list li .publication_item_info .publication_item_header .publication_item_date {
+                margin-right: 10px; }
+            .article_footer_block_publications .publications .other_publications .publications_list li .publication_item_info .publication_item_title {
+              width: 85%;
+              margin: 3px 0 17px 0; }
+              .article_footer_block_publications .publications .other_publications .publications_list li .publication_item_info .publication_item_title a {
+                font-weight: bold;
+                line-height: 21px;
+                font-size: 15px;
+                color: #262626;
+                text-decoration: none; }
+        .article_footer_block_publications .publications .other_publications .publications_list li:nth-last-child(1) {
+          border-bottom: none; }
+      .article_footer_block_publications .publications .other_publications .show_all_publications {
+        display: inline-block;
+        margin-top: 57px;
+        margin-left: 20px; }

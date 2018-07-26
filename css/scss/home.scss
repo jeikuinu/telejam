@@ -1,0 +1,625 @@
+// $logo_font: 'Montserrat', sans-serif;
+$roboto_font: 'Roboto', sans-serif;
+
+%row-center-flex{
+    display: flex;
+    align-items: center;
+}
+%white-box-shadow{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+%bold-title-15-monserat{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    font-size: 15px;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+
+.home_content{
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 100%;
+    .publications{
+        @extend %white-box-shadow;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        padding: 60px 60px 30px 60px;
+        border-bottom: 0.5px solid rgba(34, 34, 34, 0.3);
+        .main_publication{
+            width: 580px;
+            // margin-right: 40px;
+            .main_publication_image{
+                max-width: 580px;
+                margin-bottom: 20px;
+                & img{
+                    width: 580px;
+                }
+            }
+            .main_publication_info{
+                .main_publication_title {
+                    margin-bottom: 14px;
+                    & a{
+                        font-weight: bold;
+                        line-height: 34px;
+                        font-size: 24px;
+                        color: #262626;
+                        text-decoration: none;
+                    }
+                }
+                .main_publication_description{
+                    line-height: 21px;
+                    font-size: 15px;
+                    color: #262626;
+                    font-style: normal;
+                    font-weight: normal;        
+                    margin-bottom: 20px;
+                }
+                .main_publication_footer{
+                    font-weight: bold;
+                    line-height: 15px;
+                    font-size: 11px;
+                    color: #262626;
+                    opacity: 0.7;
+                    .main_publication_date{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .other_publications{
+            width: 580px;
+            .publications_list{
+                padding: 0;
+                & li{
+                    list-style: none;
+                    margin-bottom: 20px;
+                    border-bottom: 0.5px solid rgba(34, 34, 34, 0.3);
+                    .publication_item_info{
+                        padding-left: 20px;
+                        // padding-right: 20px;
+                        .publication_item_header{
+                            // font-family: Montserrat;
+                            font-weight: bold;
+                            line-height: 16px;
+                            font-size: 11px;
+                            color: #262626;
+                            opacity: 0.7;
+                            .publication_item_date{
+                                margin-right: 10px;
+                            }
+                        }
+                        .publication_item_title{
+                            width: 85%;
+                            margin: 3px 0 17px 0;
+                            & a{
+                                font-weight: bold;
+                                line-height: 21px;
+                                font-size: 15px;
+                                color: #262626;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                & li:nth-last-child(1){
+                    border-bottom: none;
+                }
+            }
+            .show_all_publications{
+                display: inline-block;
+                margin-top: 57px;
+                margin-left: 20px;
+            } 
+        }
+    }
+    .serials_rating{
+        @extend %white-box-shadow;
+        padding: 30px 60px 40px 60px;
+        border-bottom: 0.5px solid rgba(34, 34, 34, 0.3);
+        display: flex;
+        justify-content: space-between;
+        .serials_list_wrapper{
+            max-width: 261px;
+            .serials_list_header{
+                display: flex;
+                .serials_list_header_title{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    line-height: 17px;
+                    font-size: 17px;
+                    letter-spacing: -0.05em;
+                    color: #262626;
+                    margin-bottom: 24px;
+                }
+                .serials_list_header_info_icon{
+                    display: flex;
+                    margin-left: 12px;
+                    .info_icon{
+                        font-family: 'Lora', serif;
+                        font-weight: normal;
+                        line-height: 20px;
+                        font-size: 13px;
+                        color: rgba(44, 62, 80, 0.3);
+                        position: relative;
+                        display: inline-block;
+                        cursor: pointer;
+                        & i{
+                            border: 1px solid rgba(34, 34, 34, 0.3);;
+                            box-sizing: border-box;
+                            border-radius: 100%;
+                            padding: 1px 9px 1px 6px;
+                        }
+                    }
+                    .sr_tooltip_trigger:hover .sr_tooltip {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+            .serials_list{
+                padding: 0;
+                .serials_list_item{
+                    list-style: none;
+                    .serials_list_item_wrapper{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .serials_rating_info{
+                            display: flex;
+                            .serials_list_item_number{
+                                margin-right: 14px;
+                                font-weight: 300;
+                                line-height: 18px;
+                                font-size: 13px;
+                                color: #262626;
+                            }
+                            .serials_rating_title{
+                                line-height: 18px;
+                                font-size: 13px;
+                                text-decoration-line: underline;
+                                color: #262626;
+                                display: flex;
+                                align-items: center;
+                                & a{
+                                    text-decoration: none;
+                                    line-height: 18px;
+                                    font-size: 13px;
+                                    text-decoration-line: underline;
+                                    color: #262626;
+                                }
+                            }
+                            .blue_line::after{
+                                background-color: #069CD3;
+                            }
+                            .serials_rating_title::after{
+                                content: "";
+                                margin-left: 5px;
+                                width: 7px;
+                                height: 7px;
+                                border-radius: 50%;
+                            }
+                            .serials_rating_years{
+                                line-height: 15px;
+                                font-size: 11px;
+                                color: #262626;
+                                opacity: 0.7;
+                            }
+                        }
+
+                        .serials_rating_infografika{
+                            display: flex;
+                            align-items: center;
+                            .serials_rating_upgrade{
+                                line-height: 15px;
+                                font-size: 11px;
+                                color: #47BF53;
+                                margin-right: 5px;
+                                display: flex;
+                                align-items: center;
+                            }
+                            .serials_rating_upgrade::before{
+                                content: "";
+                                border: 5px solid transparent;	
+                                border-bottom: 10px solid #47BF53;
+                                border-top: 0;
+                                margin-right: 3px;
+                            } 
+                            .serials_rating_downgrade{
+                                line-height: 15px;
+                                font-size: 11px;
+                                color: #EB5757;
+                                margin-right: 5px;
+                                display: flex;
+                                align-items: center;
+                            }
+                            .serials_rating_downgrade::before{
+                                content: "";
+                                border: 5px solid transparent;	
+                                border-top: 10px solid #EB5757;
+                                border-bottom: 0;
+                                margin-right: 6px;
+                            }
+                            .serials_rating_percent_number{
+                                font-weight: bold;
+                                line-height: 15px;
+                                font-size: 11px;
+                                margin-left: 5px;
+                                color: #E8E8E8;
+                            }
+                        }
+                    }
+                }
+            }
+            .show_all_serials_wrapper{
+                margin-top: 46px;
+                .show_all_serials{
+                    padding-right: 85px;
+                    padding-left: 85px;
+                }
+            }
+        }
+        .serials_chart_wrapper{
+            max-width: 880px;
+            width: 100%;
+            .serials_controls_panel{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                .serial_control_pages{
+                    display: flex;
+                    align-items: center;
+                    & span{
+                        line-height: 18px;
+                        font-size: 13px;
+                        color: #2C3E50;
+                        opacity: 0.3;
+                        margin-right: 18px;
+                    }
+                    .serial_control_pages_arrows{
+                        display: flex;
+                        align-items: center;
+                        .previous_page{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 32px;
+                            height: 32px;
+                            border: 1.5px solid #2C3E50;
+                            border-radius: 50%;
+                            opacity: 0.3;
+                            margin-right: 12px;
+                            cursor: pointer;
+                            &::after{
+                                content: '';
+                                width: 6px;
+                                height: 6px;
+                                border-top: 1.5px solid #333;
+                                border-right: 1.5px solid #333;
+                                transform: rotate(-135deg);
+                            }
+                            &:hover{
+                                border-color: #F2994A;
+                                &::after{
+                                    border-color: #F2994A;
+                                }
+                            }
+                        }
+                        .next_page{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 32px;
+                            height: 32px;
+                            border: 1.5px solid #2C3E50;
+                            border-radius: 50%;
+                            opacity: 0.3;
+                            cursor: pointer;
+                            &::after{
+                                content: '';
+                                width: 6px;
+                                height: 6px;
+                                border-top: 1.5px solid #333;
+                                border-right: 1.5px solid #333;
+                                transform: rotate(45deg);
+                            }
+                            &:hover{
+                                border-color: #F2994A;
+                                &::after{
+                                    border-color: #F2994A;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .serials_chart{
+                margin-top: 12px;
+            }
+        }
+    }
+    .last_serials{
+        @extend %white-box-shadow;
+        padding: 30px 60px 40px 60px;
+        margin-bottom: 40px;
+        .last_serials_header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            .last_serial_header_title{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                line-height: 15px;
+                font-size: 15px;
+                letter-spacing: -0.05em;
+            }
+        }
+        .last_serials_block{
+            .last_serials_list{
+                margin-right: -20px;
+                .last_serials_item{
+                    margin-right: 20px;
+                    width: 132.6px !important;
+                    min-height: 286px;
+                    height: 290px;
+                    outline: none;
+                    .serial_item_wrapper{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        height: 100%;
+                        .serial_info{
+                            .last_serial_image{
+                                height: 197.3px;
+                                width: 132.5px;
+                                margin-bottom: 10px;
+                            }
+                            .last_serial_title a{
+                                text-decoration: none;
+                                font-weight: bold;
+                                line-height: 18px;
+                                font-size: 13px;
+                                color: #262626;
+                            }
+                            .last_serial_genre{
+                                line-height: 15px;
+                                font-size: 11px;
+                                color: #262626;
+                                opacity: 0.7;
+                                margin-bottom: 4px;
+                            }
+                        }
+                        .last_serial_percent_number{
+                            font-weight: bold;
+                            line-height: 15px;
+                            font-size: 11px;
+                            margin-left: 5px;
+                            color: #E8E8E8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .best_serials{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        .best_serials_left, .best_serials_right{
+            padding: 22px 0 30px 0;
+            @extend %white-box-shadow;
+            max-width: 640px;
+            width: 100%;
+        }
+
+        .best_serials_list_block{
+            .best_serials_list{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                & li{
+                    padding-left: 60px;
+                    padding-right: 60px;
+                    border-bottom: 0.5px solid rgba(34, 34, 34, 0.3);
+                    &:nth-last-child(1){
+                        border-bottom: none;
+                        padding-bottom: 0px;
+                    }
+                }
+                .best_serials_header{
+                    padding-top: 0px;
+                    padding-bottom: 22px;
+                    .best_serials_left_header{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        &_title{
+                            @extend %bold-title-15-monserat;
+                        }
+                        #previous_best_serial_page, #next_best_serial_page{
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                    .best_serials_right_header{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 27px;
+                        &_title{
+                            @extend %bold-title-15-monserat;
+                        }
+                    }
+                }
+                .best_serials_item{
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    .best_serials_item_block{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .best_serial_title a{
+                            text-decoration: none;
+                            line-height: 18px;
+                            font-size: 13px;
+                            color: #2C3E50; 
+                        }
+                        .best_serial_genre{
+                            line-height: 15px;
+                            font-size: 11px;
+                            color: rgba(44, 62, 80, 0.5);
+                        }
+                        .best_serials_percent_number{
+                            line-height: 15px;
+                            font-size: 11px;
+                            color: #262626 !important;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .show_all_best_list{
+            display: inline-block;
+            margin: 23px 0 0 40px;
+            padding: 24px 46px;
+        }
+    }
+    .channels_rating{
+        @extend %white-box-shadow;
+        padding: 40px 60px 20px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        .channels_list_wrapper{
+            max-width: 257px;
+            width: 100%;
+            margin-right: 56px;
+            .show_all_channels{
+                display: inline-block;
+                margin: 23px 0 0 0;
+                padding: 18px 85px;
+            }
+            .chr_tooltip_trigger:hover .ch_tooltip {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+        .serials_controls_panel{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            .serial_control_pages{
+                display: flex;
+                align-items: center;
+                & span{
+                    line-height: 18px;
+                    font-size: 13px;
+                    color: #2C3E50;
+                    opacity: 0.3;
+                    margin-right: 18px;
+                }
+                .serial_control_pages_arrows{
+                    display: flex;
+                    align-items: center;
+                    .previous_page{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 32px;
+                        height: 32px;
+                        border: 1.5px solid #2C3E50;
+                        border-radius: 50%;
+                        opacity: 0.3;
+                        margin-right: 12px;
+                        cursor: pointer;
+                        &::after{
+                            content: '';
+                            width: 6px;
+                            height: 6px;
+                            border-top: 1.5px solid #333;
+                            border-right: 1.5px solid #333;
+                            transform: rotate(-135deg);
+                        }
+                        &:hover{
+                            border-color: #F2994A;
+                            &::after{
+                                border-color: #F2994A;
+                            }
+                        }
+                    }
+                    .next_page{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 32px;
+                        height: 32px;
+                        border: 1.5px solid #2C3E50;
+                        border-radius: 50%;
+                        opacity: 0.3;
+                        cursor: pointer;
+                        &::after{
+                            content: '';
+                            width: 6px;
+                            height: 6px;
+                            border-top: 1.5px solid #333;
+                            border-right: 1.5px solid #333;
+                            transform: rotate(45deg);
+                        }
+                        &:hover{
+                            border-color: #F2994A;
+                            &::after{
+                                border-color: #F2994A;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .channels_charts_wrapper{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .channels_charts_item{
+                width: 250px;
+                margin-bottom: 24px;
+                .cc_item_chart{
+                    margin-bottom: 14px;
+                }
+                .cc_item_info{
+                    display: flex;
+                    justify-content: space-between;
+                    .chanel_info{
+                        .ci_chanel_name a{
+                            line-height: 18px;
+                            font-size: 13px;
+                            color: #2C3E50;
+                        }
+                        .ci_chanel_type{
+                            line-height: 15px;
+                            font-size: 11px;
+                            color: rgba(44, 62, 80, 0.5);
+                        }
+                    }
+                    .ci_chanel_rating{
+                        .ci_percent_number{
+                            line-height: 15px;
+                            font-size: 11px;
+                            color: #262626 !important;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

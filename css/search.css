@@ -1,0 +1,63 @@
+.search_result_wrapper .search_result_left_block .search_result_content {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); }
+
+.search_result_wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex; }
+  .search_result_wrapper .search_result_left_block {
+    width: 940px;
+    margin-right: 20px; }
+    .search_result_wrapper .search_result_left_block .search_result_content {
+      padding: 30px 39.5px 125px 40px;
+      margin-bottom: 20px; }
+      .search_result_wrapper .search_result_left_block .search_result_content .search_result_block .serials_list {
+        margin-right: -13px; }
+      .search_result_wrapper .search_result_left_block .search_result_content .search_result_block .serials_item {
+        margin-bottom: 40px;
+        margin-right: 13px; }
+      .search_result_wrapper .search_result_left_block .search_result_content .title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        line-height: 27px;
+        font-size: 28px;
+        letter-spacing: -0.05em;
+        margin-bottom: 30px; }
+      .search_result_wrapper .search_result_left_block .search_result_content .news_block .news {
+        display: flex; }
+        .search_result_wrapper .search_result_left_block .search_result_content .news_block .news .news_item {
+          width: 273px;
+          margin-right: 21px; }
+          .search_result_wrapper .search_result_left_block .search_result_content .news_block .news .news_item img {
+            width: 273px;
+            height: 200px; }
+          .search_result_wrapper .search_result_left_block .search_result_content .news_block .news .news_item .news_header {
+            margin: 14px 0; }
+            .search_result_wrapper .search_result_left_block .search_result_content .news_block .news .news_item .news_header .news_date {
+              margin-right: 10px;
+              font-weight: bold;
+              line-height: 15px;
+              font-size: 11px;
+              color: #262626;
+              opacity: 0.7; }
+            .search_result_wrapper .search_result_left_block .search_result_content .news_block .news .news_item .news_header .news_type {
+              font-weight: bold;
+              line-height: 15px;
+              font-size: 11px;
+              color: #262626;
+              opacity: 0.7; }
+          .search_result_wrapper .search_result_left_block .search_result_content .news_block .news .news_item .news_title a {
+            font-weight: bold;
+            line-height: 34px;
+            font-size: 24px;
+            color: #262626;
+            text-decoration: none; }
+  .search_result_wrapper .search_result_right_block {
+    width: 320px; }
+    .search_result_wrapper .search_result_right_block .rating_best_serials {
+      margin-bottom: 20px; }
+      .search_result_wrapper .search_result_right_block .rating_best_serials .serials_rating_title {
+        margin-bottom: 5px; }
+      .search_result_wrapper .search_result_right_block .rating_best_serials .watch_all_best {
+        margin-top: 16px; }

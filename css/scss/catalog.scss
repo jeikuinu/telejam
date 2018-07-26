@@ -1,0 +1,225 @@
+$roboto_font: 'Roboto', sans-serif;
+$montserrat_font: 'Montserrat', sans-serif;
+@font-face {
+	font-family: "Flaticon";
+	src: url("../../fonts/Flaticon.eot");
+    src: url("../../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../../fonts/Flaticon.woff") format("woff"), url("../../fonts/Flaticon.ttf") format("truetype"), url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+	}
+}
+
+.icon:before,
+.icon:after {
+	font-family: Flaticon;
+	font-style: normal;
+}
+%row-center-flex{
+    display: flex;
+    align-items: center;
+}
+%white-box-shadow{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+%bold-title-15-monserat{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    font-size: 15px;
+    letter-spacing: -0.05em;
+    color: #000000; 
+}
+
+.control_view_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .control_view{
+        .block_mode{
+            &::before{
+                content: "\f101";
+                font-family: Flaticon;
+                font-size: 15px;
+            }
+            display: inline-block;
+            margin-right: 22px;
+            cursor: pointer;
+        }
+        .line_mode{
+            &::before{
+                content: "\f100";
+                font-family: Flaticon;
+                font-size: 15px;
+            }
+            display: inline-block;
+            cursor: pointer;         
+            color: #C4C4C4; 
+        }
+    }
+}
+
+.catalog_wrapper{
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    .catalog_left{
+        width: 940px;
+        @extend %white-box-shadow;
+        border-radius: 1px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+
+        .block_view{
+            padding: 20px 20px 0 20px;
+            justify-content: space-between;
+            .serials_list{
+                margin-right: -21px;
+            }
+            .serials_item{
+                margin-bottom: 40px;
+                 margin-right: 21px;
+            }
+        }
+
+        .line_view{
+            display: none;
+            padding: 40px 0 40px 40px;
+            .line_view_list{
+                list-style: none;
+                padding: 0;
+                margin-top: 0;
+                margin-bottom: 0;
+                .line_view_item{
+                    padding-bottom: 20px;
+                    margin-bottom: 20px;
+                    border-bottom: 0.5px solid rgba(34, 34, 34, 0.3);
+                    &:nth-last-child(1){
+                        border-bottom: none;
+                        padding-bottom: 0;
+                        margin-bottom: 0;
+                    }
+                    .line_view_serial_wrapper{
+                        display: flex;
+                        & img{
+                            max-height: 209px;
+                        }
+                        .serial_wrapper{
+                            width: 80%;
+                            padding: 0 32px;
+                            .serial_name{
+                                margin-top: 8px;
+                                & a{
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                    line-height: 24px;
+                                    font-size: 17px;
+                                    color: #2C3E50;
+                                }
+                            }
+                            .serial_rating{
+                               margin-bottom: 12px; 
+                               margin-top: 2px;
+                               .serial_percent_number{
+                                   margin-left: 6px;
+                                   color: #66BB6A;
+                                   font-weight: bold;
+                                   line-height: 15px;
+                                   font-size: 11px;
+
+                               }
+                            }
+                            .genre, .director, .premiere{
+                                font-weight: bold;
+                                line-height: 15px;
+                                font-size: 11px;
+                                color: #2C3E50;
+                            }
+                            .genre_content, .director_content, .premiere_content{
+                                line-height: 15px;
+                                font-size: 11px;
+                                color: #2C3E50;
+                            }
+                            .serial_description{
+                                margin-top: 12px;
+                                line-height: 15px;
+                                font-size: 11px;
+                                color: #2C3E50;
+                            }
+
+                        }
+                    }
+                    
+
+                }
+            }
+        }
+       
+    }
+    .catalog_right{
+        width: 320px;
+        .serial_filter{
+            @extend %white-box-shadow;
+            border-radius: 1px;
+            padding: 20px 20px 30px;
+            margin-bottom: 20px;
+            .serial_filter_header{
+                font-family: $montserrat_font;
+                font-weight: bold;
+                line-height: 20px;
+                font-size: 21px;
+                letter-spacing: -0.05em;
+            }
+            .filter_parameters{
+                display: grid;
+                margin-top: 25px;
+                .filter_item{
+                    font-weight: 300;
+                    line-height: normal;
+                    font-size: 15px;
+                    color: #222222;
+                    text-decoration: none;
+                    margin-bottom: 14px;
+                    display: flex;
+                    align-items: center;
+                    &::after{
+                        content: '';
+                        border: solid #2C3E50;
+                        border-width: 0 0.5px 0.5px 0;
+                        padding: 3px;
+                        margin-left: 7px;
+                        transform: rotate(45deg);
+                        -webkit-transform: rotate(45deg);
+                    }
+                    &:nth-last-child(1){
+                        margin-bottom: 37px;
+                    }
+                }
+            }
+            .filter_it{
+                display: inline-block;
+                padding: 18px 94px;
+                font-size: 13px;
+                letter-spacing: 0.05em;
+            }
+
+        }
+
+        .serials_rating_title{
+            margin-bottom: 5px; 
+        }
+        // .serials_rating_years{
+        //     margin-bottom: 7px; 
+        // }
+        .watch_all_best{
+            margin-top: 16px;
+        }
+    }
+}
